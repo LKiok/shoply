@@ -8,7 +8,7 @@
     display: flex;
     padding: 20px;
     align-items: center;
-    
+    border-color: greenyellow;
 }
 nav{
     flex: 1;
@@ -243,4 +243,39 @@ ul{
 }
 .copyright{
     text-align: center;
+}
+.about-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.about-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.about-section h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.about-section ul {
+    list-style: none;
+    font-size: 18px;
+    color: #555;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.about-section ul li {
+    margin-bottom: 10px;
 }
