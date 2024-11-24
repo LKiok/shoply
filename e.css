@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 .navbar{
     display: flex;
     padding: 20px;
     align-items: center;
+    
 }
 nav{
     flex: 1;
@@ -74,12 +76,8 @@ body {
 .header .row {
     margin-top: 70px;
 }
-.img {
-    margin-right: -150px;
-}
-.logo{
-    margin-left: -250px;
-}
+
+
 .categories{
     margin: 70px 0;
 }
@@ -143,4 +141,106 @@ h4 {
     margin-top: 80px;
     padding: 30px;
     
+}
+.col2 .offer-img{
+    padding: 50px;
+}
+small {
+    color: #555;
+}
+.comments{
+    padding-top: 100px;
+}
+.comments .col3 {
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.comments .col3 img {
+    width:50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.comments .col3:hover {
+    transform: translateY(-10px);
+}
+.fa .fa-quote-left {
+    font-size: 34px;
+    color: #ff523b;
+}
+.col3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+.comments .col3 h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+.brands {
+    margin: 100px auto;
+}
+.col5 {
+    width: 160px;
+}
+.col5 img {
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.col5 img :hover {
+    filter: grayscale(0);
+}
+.footer {
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footercol1 , .footercol2, .footercol3, .footercol4 {
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footercol1{
+    flex-basis: 30%;
+}
+.footercol2 {
+    flex: 1;
+    text-align: center;
+}
+.footercol2 img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footercol3, .footercol4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img {
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
 }
